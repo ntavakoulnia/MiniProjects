@@ -1,69 +1,79 @@
 # MiniProjects
-📊 Student MLE Mini-Projects
-Welcome to the Student MLE (Machine Learning Engineer) Mini-Project Series! This repository contains a collection of hands-on projects created using Google Colab as part of a student-focused learning journey in machine learning, data science, and MLOps.
+# 📊 Student MLE Mini-Projects
 
-Each notebook explores a core concept or technique, with practical implementation using Python libraries such as pandas, scikit-learn, matplotlib, seaborn, and TensorFlow.
+Welcome to the **Student MLE (Machine Learning Engineer) Mini-Project Series**!  
+This repository contains a curated set of hands-on Jupyter notebooks created using Google Colab, aimed at exploring core concepts in machine learning, data science, and MLOps.
 
-📁 Projects Overview
-Project	Description
-1. EDA (Exploratory Data Analysis)	Initial data exploration including statistical summaries, missing value handling, and visualizations.
-2. Logistic Regression	Binary classification using logistic regression, model evaluation using accuracy, ROC, and confusion matrix.
-3. Trees and Forests	Decision Tree and Random Forest classifiers applied to structured data. Feature importance analysis included.
-4. Deep Learning	Introductory neural network using TensorFlow/Keras for classification tasks.
-5. Recommendation Engines	Collaborative filtering and content-based recommendation systems.
-6. Fine Tuning	Hyperparameter tuning using GridSearchCV and model optimization techniques.
-7. Machine Learning Pipeline	Full ML pipeline from preprocessing to model evaluation with automation.
-8. Flask API Deployment	Hosting an ML model using a simple Flask web app, showing MLOps deployment basics.
+Each notebook focuses on a fundamental topic and includes practical implementations using Python libraries such as `pandas`, `scikit-learn`, `matplotlib`, `seaborn`, and `TensorFlow/Keras`.
 
-📂 File Structure
+---
+
+## 📁 Projects Overview
+
+| Project | Description |
+|--------|-------------|
+| **Fine Tuning** | Hyperparameter tuning using `GridSearchCV` and other model optimization techniques. |
+| **Flask API Deployment** | Hosting an ML model with a simple Flask web app to demonstrate MLOps deployment. |
+| **Logistic Regression** | Binary classification with logistic regression. Model evaluation includes accuracy, ROC curve, and confusion matrix. |
+| **Machine Learning Pipeline** | Full ML pipeline including preprocessing, modeling, and evaluation. |
+| **Recommendation Engines** | Implementation of collaborative filtering and content-based recommendation systems. |
+| **Trees and Forests** | Decision Tree and Random Forest classifiers with feature importance analysis. |
+| **Deep Learning** | Introductory neural network model for classification using TensorFlow/Keras. |
+
+---
+
+## 📂 File Structure
+
+.
+├── README.md
+├── Student_MLE_MiniProject_Fine_Tuning.ipynb
+├── Student_MLE_MiniProject_Flask.ipynb
+├── Student_MLE_MiniProject_Logistic_Regression.ipynb
+├── Student_MLE_MiniProject_ML.ipynb
+├── Student_MLE_MiniProject_Recommendation_Engines.ipynb
+├── Student_MLE_MiniProject_Trees_and_Forests (1).ipynb
+└── student_mle_miniproject_deep_learning (1).ipynb
+
+yaml
 Copy
 Edit
-.
-├── Copy_of_Student_MLE_MiniProject_EDA.ipynb
-├── Copy_of_Student_MLE_MiniProject_Logistic_Regression.ipynb
-├── Copy_of_Student_MLE_MiniProject_Trees_and_Forests.ipynb
-├── Copy_of_Student_MLE_MiniProject_Recommendation_Engines.ipynb
-├── Copy_of_Student_MLE_MiniProject_Fine_Tuning.ipynb
-├── Copy_of_Student_MLE_MiniProject_ML.ipynb
-├── Student_MLE_MiniProject_ML.ipynb
-├── Student_MLE_MiniProject_Flask.ipynb
-├── student_mle_miniproject_deep_learning.ipynb
-└── README.md
-🚀 Getting Started
-You can run each notebook via Google Colab with no local setup required:
 
-Click on any .ipynb file.
+---
 
-Open in Colab.
+## 🚀 Getting Started
 
-Run cells from top to bottom.
+These notebooks are designed to run in **Google Colab**. No local setup required:
 
-Install required libraries via !pip install if not already installed.
+1. Click on any `.ipynb` file.
+2. Select **“Open in Colab”**.
+3. Run the cells top to bottom.
+4. Install any required libraries using `!pip install` if prompted.
 
-🧰 Requirements
-Most projects use:
+---
 
-Python 3.x
+## 🧰 Requirements
 
-pandas, numpy
+Most notebooks require the following Python libraries:
 
-scikit-learn
+- `pandas`, `numpy`
+- `scikit-learn`
+- `matplotlib`, `seaborn`
+- `TensorFlow/Keras` (for deep learning notebook)
+- `Flask` (for the deployment notebook)
 
-matplotlib, seaborn
+---
 
-TensorFlow/Keras (for deep learning)
+## 📌 Notes
 
-Flask (for deployment notebook)
+- These notebooks were created and tested in **Google Colab**.
+- File names with `(1)` indicate copies or iterations from earlier versions.
 
-📌 Notes
-These notebooks were created and tested in Google Colab.
+---
 
-Some files are prefixed with Copy_of_ because they originated from shared templates or earlier student edits.
+## 📬 Contact
 
-📬 Contact
-If you have questions or suggestions, feel free to reach out:
-Navid Tavakoulnia
-Email: ntavakoulnia@gmail.com
-GitHub: @ntavakoulnia
+**Navid Tavakoulnia**  
+📧 Email: [ntavakoulnia@gmail.com](mailto:ntavakoulnia@gmail.com)  
+🔗 GitHub: [@ntavakoulnia](https://github.com/ntavakoulnia)
 
 
